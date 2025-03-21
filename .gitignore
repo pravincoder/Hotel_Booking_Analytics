@@ -1,0 +1,12 @@
+.env
+.venv
+analysis_env/
+
+node_modules/
+dist/
+coverage/
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
