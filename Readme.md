@@ -73,7 +73,7 @@ Follow these steps to set up the project locally:
 
 #### /visualize (GET)
 - **Description:** Returns analytics data from `hotel_analytics.json`.
-- **URL:** `http://localhost:5000/visualize`
+- **URL:** `http://localhost:5000/analytics`
 - **Response:** 
   - JSON data if the file exists; otherwise, a 404 error.
 

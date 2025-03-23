@@ -10,10 +10,9 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, allow_headers="*") 
 
-
 # test create_rag_chain
 #print(rag_chain_instance.invoke("What is the overall cancellation rate?"))
-@app.route('/visualize', methods=['GET'])
+@app.route('/analytics', methods=['GET'])
 def visualize():
     file_path = './data/hotel_analytics.json'
     if not os.path.exists(file_path):
