@@ -10,3 +10,8 @@ pycache/
 *.pyc
 *.pyo
 *.pyd
+
+chroma/
+chroma.egg-info/
+chroma/__pycache__/
+chroma/__init__.pyc
